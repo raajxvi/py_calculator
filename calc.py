@@ -11,7 +11,6 @@ LIGHT_BLUE = "#CCEDFF"
 LIGHT_GRAY = "#F5F5F5"
 LABEL_COLOR = "#25265E"
 
-
 class Calculator:
     def __init__(self):
         self.window = tk.Tk()
@@ -160,7 +159,6 @@ class Calculator:
 
     def run(self):
         self.window.mainloop()
-
 
 if __name__ == "__main__":
     calc = Calculator()
